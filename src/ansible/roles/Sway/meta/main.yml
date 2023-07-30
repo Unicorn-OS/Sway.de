@@ -1,2 +1,3 @@
 dependencies:
-- Sway/install
+# - Sway/install
+- Sway/config/keymap

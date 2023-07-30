@@ -1,0 +1,7 @@
+- debug:
+    msg: "{{keymap}}"
+
+- name: 
+  ansible.builtin.blockinfile:
+    path: "{{config_file}}"
+    block: "{{keymap}}"
