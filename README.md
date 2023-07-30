@@ -1,5 +1,8 @@
 # Sway.de
-[First Look At Sway WM: Welcome Home "i3"](https://youtu.be/09mQAZAzwJg)
+Home: https://swaywm.org/
+
+review:
+- [First Look At Sway WM: Welcome Home "i3"](https://youtu.be/09mQAZAzwJg)
 
 # login manager
 
