@@ -1,0 +1,1 @@
+When running in KVM, it requires either virtio with OpenGL enabled, or QXL.
