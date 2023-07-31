@@ -2,6 +2,7 @@
 [sch:](https://www.google.com/search?q=sway+window+manager+hotkeys)
 - https://wiki.garudalinux.org/en/sway-cheatsheet
 - https://gist.github.com/ur4ltz/d0167120a9fe718bdc048a2599ba139d
+- https://www.reddit.com/r/swaywm/comments/he9imx/what_are_the_keyboard_shortcuts_for_sway/
 
 ## Basic keybindings
 start alacritty                         Mod+Return
