@@ -1,7 +1,18 @@
 # Shortcuts
-Actions
+https://wiki.garudalinux.org/en/sway-cheatsheet
 
+## Basic keybindings
+start alacritty                         Mod+Return
 
+kill focused window             Mod+q
+
+Application menu - wofi:     Mod+d
+
+Activities                                Mod+p
+
+Power-Menu:                         Mod+Shift+e
+
+## Actions
 Mod + Enter New terminal
 
 Mod + F Make current window fullscreen
@@ -16,9 +27,7 @@ Mod + Shift + - Move window to scratchpad
 
 Mod + - Show scratchpad
 
-Workspaces keys
-
-
+## Workspaces keys
 Mod + 0..9 Change current workspace
 
 Mod + Shift + 0..9 Move current window to designated workspace
