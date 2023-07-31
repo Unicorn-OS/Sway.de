@@ -1,3 +1,5 @@
+# prime: https://computingforgeeks.com/setup-sway-tiling-window-manager-on-fedora-with-waybar/
+
 - name: Install Sway operation dependencies
   ansible.builtin.dnf:
     name:
@@ -12,13 +14,14 @@
       - ranger
       - rofi
       - swaylock
-      - termite
       - waybar
       - wl-clipboard
       - mpc
-      # - mpd
       - mpv
       - grim
       - slurp
     state: latest
   become: true
+
+# - mpd
+# - termite
