@@ -4,5 +4,3 @@ keymap: |
       xkb_layout "us"
       xkb_variant "{{keyboard_variant}}"
   }
-
-config_file: "{{ansible_env.HOME}}/.config/sway/config"

@@ -1,3 +1,4 @@
 dependencies:
-# - Sway/install
+- Sway/install
+- Sway/default config
 - Sway/config/keymap

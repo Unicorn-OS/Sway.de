@@ -1,0 +1,12 @@
+# prime: https://wiki.archlinux.org/title/sway#Configuration
+
+- name: Create config directory
+  ansible.builtin.file:
+    path: "{{config_file | dirname }}"
+    state: directory
+
+- name: Copy default config
+  ansible.builtin.copy:
+    src: /etc/sway/config
+    dest: "{{config_file}}"
+    remote_src: yes
