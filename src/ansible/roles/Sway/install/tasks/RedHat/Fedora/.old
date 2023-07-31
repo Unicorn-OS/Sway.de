@@ -3,30 +3,3 @@
     src: sway-deps.repo.j2
     dest: /etc/yum.repos.d/sway-deps.repo
   become: true
-
-
-# - name: Install Sway operation dependencies
-#   ansible.builtin.dnf:
-#     name:
-#       - feh
-#       - fira-code-fonts
-#       - fontawesome-fonts
-#       - powerline-fonts
-#       - light
-#       - mako
-#       - ncmpcpp
-#       - pavucontrol
-#       - ranger
-#       - rofi
-#       - swaylock
-#       - termite
-#       - waybar
-#       - wl-clipboard
-#       - mpc
-#       # - mpd
-#       - mpv
-#       - grim
-#       - slurp
-#     state: latest
-#   become: true
-

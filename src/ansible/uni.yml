@@ -5,3 +5,4 @@
 # - hosts: vm
   roles:
   - Sway
+  - Sway/extra packages
