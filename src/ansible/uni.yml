@@ -1,8 +1,7 @@
-# - hosts: localhost #, fedora, ubuntu
-#   vars:
-#     ansible_become_password: u
-#     ansible_user: "{{lookup('ansible.builtin.env', 'USER')}}"
+- hosts: localhost #, fedora, ubuntu
+  vars:
+    ansible_become_password: u
 
-- hosts: vm
+# - hosts: vm
   roles:
   - Sway
